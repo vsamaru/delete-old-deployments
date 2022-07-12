@@ -2,7 +2,7 @@
 	"name": "delete-old-deployments",
 	"version": "0.0.1",
 	"type": "module",
-	"description": "🚮 Deletes old deployments in Cloudflare Pages",
+	"description": "🚮 Deletes old deployments for Cloudflare Pages",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/Playform/delete-old-deployments.git"

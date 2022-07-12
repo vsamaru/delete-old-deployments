@@ -67,10 +67,16 @@ const deleteOldDeployments = async () => {
 	return new Response("OK", { status: 200 });
 };
 
-addEventListener("fetch", (event) => {
-	event.respondWith(deleteOldDeployments());
-});
+addEventListener(
+	"fetch",
+	(event: { respondWith: (arg0: Promise<Response>) => void }) => {
+		event.respondWith(deleteOldDeployments());
+	}
+);
 
-addEventListener("scheduled", (event) => {
-	event.waitUntil(deleteOldDeployments());
-});
+addEventListener(
+	"scheduled",
+	(event: { waitUntil: (arg0: Promise<Response>) => void }) => {
+		event.waitUntil(deleteOldDeployments());
+	}
+);
