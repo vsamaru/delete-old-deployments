@@ -5,11 +5,11 @@
 	"description": "🚮 Deletes old deployments for Cloudflare Pages",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Playform/delete-old-deployments.git"
+		"url": "git+https://github.com/Playform/fresh-critters.git"
 	},
-	"homepage": "https://github.com/Playform/delete-old-deployments#readme",
+	"homepage": "https://github.com/Playform/fresh-critters#readme",
 	"bugs": {
-		"url": "https://github.com/Playform/delete-old-deployments/issues"
+		"url": "https://github.com/Playform/fresh-critters/issues"
 	},
 	"author": "Nikola Hristov <nikola@playform.cloud>",
 	"license": "SEE LICENSE IN LICENSE",
@@ -22,7 +22,7 @@
 	},
 	"devDependencies": {
 		"@cloudflare/workers-types": "3.14.1",
-		"@types/node": "18.0.3",
+		"@types/node": "18.0.4",
 		"esbuild": "0.14.49",
 		"typescript": "4.7.4"
 	}
