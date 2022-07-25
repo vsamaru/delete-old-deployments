@@ -40,9 +40,7 @@ const getDeployments = async (project: string) => {
 const deleteOldDeployments = async () => {
 	const projects = await getProjects();
 
-	while (projects.length > 0) {
-		const project = projects.shift();
-
+	for (const project of projects) {
 		// @ts-ignore
 		const URL = `https://api.cloudflare.com/client/v4/accounts/${ACCOUNT_ID}/pages/projects/${project}/deployments`;
 

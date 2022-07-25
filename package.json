@@ -1,6 +1,6 @@
 {
 	"name": "delete-old-deployments",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"type": "module",
 	"description": "🚮 Deletes old deployments for Cloudflare Pages",
 	"repository": {
