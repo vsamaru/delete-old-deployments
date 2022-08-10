@@ -1,4 +1,5 @@
 const DAYS = 7;
+const LIMIT = 40;
 const HEADERS = {
 	"content-type": "application/json;charset=UTF-8",
 	// @ts-ignore
@@ -48,7 +49,7 @@ const deleteOldDeployments = async () => {
 			id: string;
 		}[] = await getDeployments(project.name);
 
-		for (const deployment of deployments) {
+		for (const deployment of deployments.splice(0, LIMIT)) {
 			if (
 				// @ts-ignore
 				(Date.now() - new Date(deployment.created_on)) / 86400000 >

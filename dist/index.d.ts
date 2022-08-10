@@ -1,5 +1,6 @@
 /// <reference types="@cloudflare/workers-types" />
 declare const DAYS = 7;
+declare const LIMIT = 40;
 declare const HEADERS: {
     "content-type": string;
     "X-Auth-Email": any;
