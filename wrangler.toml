@@ -1,6 +1,7 @@
 name = "delete-old-deployments"
 compatibility_date = "2022-01-24"
 main = "./dist/index.js"
+send_metrics = false
 
 [triggers]
-crons = ["0 0 1 JAN-DEC *"]
+crons = ["0 0 * * mon"]
