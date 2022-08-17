@@ -3,6 +3,9 @@
 	"include": [
 		"src"
 	],
+	"ts-node": {
+		"esm": true
+	},
 	"compilerOptions": {
 		"allowJs": true,
 		"baseUrl": ".",
@@ -10,6 +13,7 @@
 		"emitDeclarationOnly": true,
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
+		"isolatedModules": true,
 		"lib": [
 			"es2015"
 		],

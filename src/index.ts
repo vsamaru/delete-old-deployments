@@ -79,3 +79,5 @@ addEventListener(
 		event.waitUntil(deleteOldDeployments());
 	}
 );
+
+export default deleteOldDeployments;
