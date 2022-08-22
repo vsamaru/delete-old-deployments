@@ -24,7 +24,6 @@
 	"devDependencies": {
 		"@cloudflare/workers-types": "3.14.1",
 		"@playform/config": "0.0.1",
-		"@playform/scripts": "0.0.1",
-		"@types/node": "18.7.9"
+		"@playform/scripts": "0.0.1"
 	}
 }
