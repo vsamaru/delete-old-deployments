@@ -5,7 +5,7 @@
 	"description": "🚮 Deletes old deployments for Cloudflare Pages",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Playform/delete-old-deployments.git"
+		"url": "https://github.com/Playform/delete-old-deployments.git"
 	},
 	"homepage": "https://github.com/Playform/delete-old-deployments#readme",
 	"bugs": {
@@ -23,7 +23,7 @@
 	},
 	"devDependencies": {
 		"@cloudflare/workers-types": "3.14.1",
-		"@playform/config": "0.0.2",
-		"@playform/scripts": "0.0.4"
+		"@playform/config": "0.0.3",
+		"@playform/scripts": "0.0.5"
 	}
 }
