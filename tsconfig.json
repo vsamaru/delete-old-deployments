@@ -1,12 +1,8 @@
 {
 	"compilerOptions": {
 		"outDir": "dist",
-		"types": [
-			"@cloudflare/workers-types"
-		]
+		"types": ["@cloudflare/workers-types"]
 	},
 	"extends": "@playform/config/tsconfig.json",
-	"include": [
-		"src"
-	]
+	"include": ["src"]
 }
