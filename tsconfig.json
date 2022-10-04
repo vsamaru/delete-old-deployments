@@ -3,6 +3,6 @@
 		"outDir": "dist",
 		"types": ["@cloudflare/workers-types"]
 	},
-	"extends": "@playform/config/tsconfig.json",
+	"extends": "@lightrix/config/tsconfig.json",
 	"include": ["src"]
 }
