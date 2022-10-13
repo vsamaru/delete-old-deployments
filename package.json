@@ -20,8 +20,8 @@
 		"build": "playform build src/index.ts"
 	},
 	"devDependencies": {
-		"@cloudflare/workers-types": "3.16.0",
+		"@cloudflare/workers-types": "3.17.0",
 		"@playform/config": "0.0.4",
-		"@playform/scripts": "0.0.6"
+		"@playform/scripts": "0.0.7"
 	}
 }
